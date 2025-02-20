@@ -1,0 +1,185 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+/* ✅ النافبار */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #133599;
+  padding: 15px 20px;
+}
+
+ h1 {
+  color:  #fafbfd;
+ }
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+/* ✅ عرض الصور */
+.slider {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.slide-img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* ✅ قسم المشاريع */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  width: 250px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ✅ أيقونات التواصل */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.whatsapp { color: #25d366; }
+.instagram { color: #e4405f; }
+.telegram { color: #0088cc; }
+
+/* ✅ المودال */
+.modal {
+  background: white;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.modal img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ الفوتر */
+.footer {
+  background: #1e3a8a;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* ✅ قسم الخدمات */
+.services {
+  padding: 50px 20px;
+  background: #ffffff;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  width: 250px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #555;
+}
+.video-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-section h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+   
+}
+
+.video-section video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
